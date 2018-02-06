@@ -1,1 +1,1 @@
-# weather-prediction
+![Screenshot](weather.jpg)
