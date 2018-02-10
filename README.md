@@ -1,6 +1,6 @@
 ![Screenshot](weather.jpg)
 
-Weather Prediction<br />
+<h1>Weather Prediction</h1><br />
 
 This is a Machine Learning project which predicts weather condition from image. The project consist of 2 parts desktop and mobile. In desktop part, dataset is trained and model is saved. In mobile-android- part, trained model is used for prediction.
 
