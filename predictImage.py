@@ -52,9 +52,12 @@ def load_frozen_graph():
     with tf.Session(graph=graph) as sess:
         saver = tf.train.import_meta_graph(checkpoint_path + ".meta", import_scope=None)
         saver.restore(sess, checkpoint_path)
-        for i in os.listdir("../cektiklerim/2/"):
-            y = predict_image("../cektiklerim/2/" + i, sess)
-            print(y)
+        
+        #prediction
+        y = predict_image("../cektiklerim/2/" + i, sess)
+        print(y)
 
 
 load_frozen_graph()
+
+
