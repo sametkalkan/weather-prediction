@@ -54,7 +54,7 @@ def load_frozen_graph():
         saver.restore(sess, checkpoint_path)
         
         #prediction
-        y = predict_image("../cektiklerim/2/" + i, sess)
+        y = predict_image("image.jpg" + i, sess)
         print(y)
 
 
