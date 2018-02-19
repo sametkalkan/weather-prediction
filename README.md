@@ -13,7 +13,6 @@ Rainy: %60.79<br />
 Snowy: %71.73<br />
 Foggy: %66.46<br />
 General Accuracy: %72.08
-
-
-
+ 
+Play Store: [Weather Prediction](https://play.google.com/store/apps/details?id=com.kalkan.weatherprediction)
 
